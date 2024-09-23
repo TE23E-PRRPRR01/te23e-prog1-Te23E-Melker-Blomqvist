@@ -1,13 +1,13 @@
 ﻿// Ett program där användaren spelar frågesport
 Console.Clear();
-Console.WriteLine("Hej och välkommen till min frågesport");
+Console.WriteLine("Hej och välkommen till min allsvenskan quiz!");
 Console.WriteLine("Ange ditt namn:");
 string namn = Console.ReadLine();
 
 Console.WriteLine($"""
 Hej {namn}, detta spel går ut på att svara rätt på frågor. Du kommer få 3 alternativ 
-och du ska välja ett, 
-rätt svar ger 1 poäng och fel svar ger 0. 
+och du ska välja ett genom att skriva a, b eller c.
+Rätt svar ger 1 poäng och fel svar ger 0. 
 Skriv in ett meddelande om du är redo att börja
 """);
 Console.ReadLine();
@@ -102,4 +102,4 @@ else
     Console.WriteLine("Du svarade fel, tack för att du deltog");
 }
 
-Console.WriteLine($"Tack för att du spelade, du fick {antal} poäng.");
+Console.WriteLine($"Tack för att du spelade {namn}, du fick {antal} poäng.");
