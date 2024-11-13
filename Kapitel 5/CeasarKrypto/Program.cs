@@ -28,7 +28,6 @@ foreach (char bokstav in meddelande)
         //Console.WriteLine($"{index} + {nyckel} = {nyIndex}");
 
         // Börja om alfabet om nyckeln går ur listan.
-        if (nyIndex >= Alfabetet.Length)
         {
             nyIndex = nyIndex - Alfabetet.Length;
         }
